@@ -149,13 +149,14 @@ h1 {
 
 .ripples {
     position: absolute;
-    bottom: 20%;
+    bottom: 35%;
     width: 300px;
     height: 300px;
     border-radius: 50%;
     border: 1px solid rgba(128, 215, 230, 0.08);
     animation: ripple 6s infinite ease-in-out;
 }
+
 
 .ripples::before,
 .ripples::after {
